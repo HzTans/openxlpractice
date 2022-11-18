@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "openxl-test"
+version = "0.1.0"
+description = ""
+authors = ["liumi666 <whitepepper4140@gmail.com>"]
+readme = "README.md"
+packages = [{include = "openxl_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openpyxl = "^3.0.10"
+Pillow = "^9.2.0"
+black = "^22.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
